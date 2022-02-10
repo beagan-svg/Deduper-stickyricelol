@@ -125,7 +125,7 @@ def deduplicate(sam_open, umi_list, dup_out, uniq_out, stat_out):
                     pass
                 else:
                     invalid_umi_count += 1
-                    break
+                    continue
             else:
                 pass
             
